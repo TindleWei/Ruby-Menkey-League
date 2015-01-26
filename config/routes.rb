@@ -6,8 +6,12 @@ Bootstrap::Application.routes.draw do
   get '/terms'    => 'high_voltage/pages#show', id: 'terms'
   get '/product'  => 'high_voltage/pages#show', id: 'product'
 
+  get '/dog' =>  'high_voltage/pages#show', id: 'dog'
+  get '/sendmail' =>  'high_voltage/pages#show', id: 'sendmail'
+
   get '/home', to: redirect('/')
 
   root :to => 'high_voltage/pages#show', id: 'home'
+
 
 end

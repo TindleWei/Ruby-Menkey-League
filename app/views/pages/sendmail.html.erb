@@ -1,0 +1,86 @@
+<% provide(:title, 'Mail') %>
+
+<link href="stylesheets/sendmail.css" rel="stylesheet">
+<body>
+<canvas width="1920" height="900"></canvas>
+<br/>
+<br/>
+<br/>
+<script>
+  var b = document.body;
+  var c = document.getElementsByTagName('canvas')[0];
+  var $ = c.getContext('2d');
+  document.body.clientWidth; 
+</script>
+  <!--Script to Relay!-->
+<script>
+  //BEGIN SCRIPT RELAY TO CODEPEN.IO... 
+  S = b.querySelectorAll("script")[1].innerHTML.split("\n");
+  so = 0; fs = "fillStyle";
+  lo = 1;ln = "length";
+  c.width = W = innerWidth;
+  c.height = H = S.length*20;
+  b.style.margin = 0;
+  b.style.background = "#000";
+  b.style.overflow = "hidden";
+  $.textBaseline = "top";
+  $.font = "14px monospace";
+  
+//PAUSE RELAY: DRAW INSPECTOR GADGET...
+/*
+                ___
+         _..--"\  `|`""--.._
+      .-'       \  |        `'-.
+     /           \_|___...----'`\
+    |__,,..--""``(_)--..__      |
+    '\     _.--'`.I._     ''--..'
+      `''"`,#TMR/_|_\###,---'`
+        ,#'  _.:`___`:-._ '#,
+       #'  ,~'-;(oIo);-'~, '#
+       #   `~-(  |    )=~`  #
+       #       | |_  |      #
+       #       ; ._. ;      #
+       #  _..-;|\ - /|;-._  #
+       #-'   /_ \\_// _\  '-#
+     /`#    ; /__\-'__\;    #`\
+    ;  #\.--|  |O  O   |'-./#  ;
+    |__#/   \ _;O__O___/   \#__|
+     | #\    [I_[_]__I]    /# |
+     \_(#   /  |O  O   \   #)_/
+           /   |        \
+          /    |         \
+         /    /\          \
+        /     | `\         ;
+       ;      \   '.       |
+        \-._.__\     \_..-'/
+         '.\  \-.._.-/  /'`
+            \_.\    /._/
+             \_.;  ;._/
+           .-'-./  \.-'-.
+          (___.'    '.___)
+*/
+//RESUME SCRIPT RELAY...
+
+ x = setInterval(function() {
+  $.globalCompositeOperation = "source-over";
+  $.shadowBlur = 0; $[fs] = "rgba(0,0,0,0.4)";
+  $.fillRect(0,0,W,H);
+  $.shadowColor = "rgba(0,255,0,0.5)";
+  $.shadowBlur = 8; $[fs] = "#060";
+  $.globalCompositeOperation = "lighter";
+  S.forEach(function(v, i) {
+    if (i <= lo) {
+      if (i == lo) { v = v.substr(0, so); }
+      $.fillText(v, 100, 100+i*16);
+    }
+  });
+  $[fs] = "#0f0";
+  $.fillRect(100+$.measureText(S[lo].substr(0, so)).width, 102+lo*16, 10, 14);
+  so++;
+    if (so >= S[lo][ln]) { lo++; so = 0; }
+      if (lo*16 > innerHeight-200) { $.translate(0, -0.5); }
+        if (lo >= S[ln]-1) { window.clearInterval(x); }
+  }, 25);
+//END SCRIPT RELAY _
+</script>
+</body>
