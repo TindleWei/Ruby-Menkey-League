@@ -1,0 +1,42 @@
+<link href="stylesheets/custom.css" rel="stylesheet">
+</br>
+<div class="jumbotron">
+
+   <div class="container">
+      <h1>留下你想说的话</h1>
+      <p>关于产品的意见，我一定认真听取。</p>
+      <h3/>
+      <p><%= link_to '<button class="btn btn-success btn-lg" type="button">留言</button>'.html_safe, new_note_path %>
+      </p>
+   </div>
+</div>
+
+<h2>留言板</h2>
+
+
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Message</th>
+      <th>Created At</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @notes.each do |note| %>
+      <tr>
+        <td><%= note.name %></td>
+        <td><%= note.message %></td>
+        <td><%= note.created_at %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+

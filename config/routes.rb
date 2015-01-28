@@ -1,5 +1,7 @@
 Bootstrap::Application.routes.draw do
 
+  resources :notes
+
   get '/about'    => 'high_voltage/pages#show', id: 'about'
   get '/contact'  => 'high_voltage/pages#show', id: 'contact'
   get '/privacy'  => 'high_voltage/pages#show', id: 'privacy'
@@ -10,6 +12,8 @@ Bootstrap::Application.routes.draw do
   get '/sendmail' =>  'high_voltage/pages#show', id: 'sendmail'
 
   get '/home', to: redirect('/')
+
+  resources :notes
 
   root :to => 'high_voltage/pages#show', id: 'home'
 
