@@ -52780,3 +52780,611 @@ Processing by HighVoltage::PagesController#show as HTML
   Parameters: {"id"=>"about"}
   Rendered pages/about.html.erb within layouts/application (1.4ms)
 Completed 200 OK in 73ms (Views: 71.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-29 15:50:37 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"home"}
+  Rendered pages/home.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 296ms (Views: 278.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-01-29 15:50:37 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-29 15:50:37 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-29 15:50:37 +0800
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2015-01-29 15:50:38 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-29 15:50:38 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-29 15:50:38 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-29 15:50:38 +0800
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-01-29 15:50:38 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-29 15:50:38 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-29 15:50:38 +0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2015-01-29 15:50:38 +0800
+
+
+Started GET "/about" for 127.0.0.1 at 2015-01-29 15:50:43 +0800
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"about"}
+  Rendered pages/about.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-01-29 15:51:49 +0800
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"about"}
+  Rendered pages/about.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-01-29 15:51:50 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-29 15:51:50 +0800
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2015-01-29 15:51:50 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-29 15:51:50 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-29 15:51:50 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-29 15:51:50 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-29 15:51:50 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-29 15:51:50 +0800
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-01-29 15:51:50 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-29 15:51:50 +0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2015-01-29 15:51:50 +0800
+
+
+Started GET "/about" for 127.0.0.1 at 2015-01-29 15:52:07 +0800
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"about"}
+  Rendered pages/about.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-29 15:52:07 +0800
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-01-29 15:52:07 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-29 15:52:07 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-29 15:52:07 +0800
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2015-01-29 15:52:07 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-29 15:52:07 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-29 15:52:07 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-29 15:52:07 +0800
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-01-29 15:52:07 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-29 15:52:07 +0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2015-01-29 15:52:07 +0800
+
+
+Started GET "/about" for 127.0.0.1 at 2015-01-29 15:52:30 +0800
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"about"}
+  Rendered pages/about.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-01-29 15:52:30 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-29 15:52:30 +0800
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2015-01-29 15:52:30 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-29 15:52:30 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-29 15:52:30 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-29 15:52:30 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-29 15:52:30 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-29 15:52:30 +0800
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-01-29 15:52:30 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-29 15:52:30 +0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2015-01-29 15:52:30 +0800
+
+
+Started GET "/about" for 127.0.0.1 at 2015-01-29 15:59:57 +0800
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"about"}
+  Rendered pages/about.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 41ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-01-29 15:59:57 +0800
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2015-01-29 15:59:57 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-29 15:59:57 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-29 15:59:57 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-29 15:59:57 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-29 15:59:57 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-29 15:59:57 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-29 15:59:57 +0800
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-01-29 15:59:57 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-29 15:59:57 +0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2015-01-29 15:59:57 +0800
+
+
+Started GET "/about" for 127.0.0.1 at 2015-01-29 16:00:21 +0800
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"about"}
+  Rendered pages/about.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-01-29 16:00:21 +0800
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2015-01-29 16:00:21 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-29 16:00:21 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-29 16:00:21 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-29 16:00:21 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-29 16:00:21 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-29 16:00:21 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-29 16:00:21 +0800
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-01-29 16:00:21 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-29 16:00:21 +0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2015-01-29 16:00:21 +0800
+
+
+Started GET "/about" for 127.0.0.1 at 2015-01-29 16:00:38 +0800
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"about"}
+  Rendered pages/about.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-29 16:00:38 +0800
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-01-29 16:00:38 +0800
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2015-01-29 16:00:38 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-29 16:00:38 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-29 16:00:38 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-29 16:00:38 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-29 16:00:38 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-29 16:00:38 +0800
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-01-29 16:00:38 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-29 16:00:38 +0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2015-01-29 16:00:38 +0800
+
+
+Started GET "/about" for 127.0.0.1 at 2015-01-29 16:00:47 +0800
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"about"}
+  Rendered pages/about.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-01-29 16:00:47 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-29 16:00:47 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-29 16:00:47 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-29 16:00:47 +0800
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2015-01-29 16:00:47 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-29 16:00:47 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-29 16:00:47 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-29 16:00:47 +0800
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-01-29 16:00:47 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-29 16:00:47 +0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2015-01-29 16:00:47 +0800
+
+
+Started GET "/about" for 127.0.0.1 at 2015-01-29 16:00:56 +0800
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"about"}
+  Rendered pages/about.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-29 16:00:56 +0800
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-01-29 16:00:56 +0800
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2015-01-29 16:00:56 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-29 16:00:56 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-29 16:00:56 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-29 16:00:56 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-29 16:00:56 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-29 16:00:56 +0800
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-01-29 16:00:56 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-29 16:00:56 +0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2015-01-29 16:00:56 +0800
+
+
+Started GET "/about" for 127.0.0.1 at 2015-01-29 16:01:20 +0800
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"about"}
+  Rendered pages/about.html.erb within layouts/application (46.7ms)
+Completed 200 OK in 56ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-29 16:01:20 +0800
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-01-29 16:01:20 +0800
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2015-01-29 16:01:20 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-29 16:01:20 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-29 16:01:20 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-29 16:01:20 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-29 16:01:20 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-29 16:01:20 +0800
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-01-29 16:01:20 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-29 16:01:20 +0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2015-01-29 16:01:20 +0800
+
+
+Started GET "/about" for 127.0.0.1 at 2015-01-29 16:01:37 +0800
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"about"}
+  Rendered pages/about.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-01-29 16:01:37 +0800
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2015-01-29 16:01:37 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-29 16:01:37 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-29 16:01:37 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-29 16:01:37 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-29 16:01:37 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-29 16:01:37 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-29 16:01:37 +0800
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-01-29 16:01:37 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-29 16:01:37 +0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2015-01-29 16:01:37 +0800
+
+
+Started GET "/about" for 127.0.0.1 at 2015-01-29 16:02:09 +0800
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"about"}
+  Rendered pages/about.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 63ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-01-29 16:02:09 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-29 16:02:09 +0800
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2015-01-29 16:02:09 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-29 16:02:09 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-29 16:02:09 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-29 16:02:09 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-29 16:02:09 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-29 16:02:09 +0800
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-01-29 16:02:09 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-29 16:02:09 +0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2015-01-29 16:02:09 +0800
+
+
+Started GET "/about" for 127.0.0.1 at 2015-01-29 16:02:39 +0800
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"about"}
+  Rendered pages/about.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-01-29 16:02:39 +0800
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2015-01-29 16:02:39 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-29 16:02:39 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-29 16:02:39 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-29 16:02:39 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-29 16:02:39 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-29 16:02:39 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-29 16:02:39 +0800
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-01-29 16:02:39 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-29 16:02:39 +0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2015-01-29 16:02:39 +0800
+
+
+Started GET "/about" for 127.0.0.1 at 2015-01-29 16:02:44 +0800
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"about"}
+  Rendered pages/about.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-01-29 16:02:44 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-29 16:02:44 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-29 16:02:44 +0800
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2015-01-29 16:02:44 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-29 16:02:44 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-29 16:02:44 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-29 16:02:44 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-29 16:02:44 +0800
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-01-29 16:02:44 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-29 16:02:44 +0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2015-01-29 16:02:44 +0800
+
+
+Started GET "/about" for 127.0.0.1 at 2015-01-29 16:03:40 +0800
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"about"}
+  Rendered pages/about.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-01-29 16:03:40 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-29 16:03:40 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-01-29 16:03:40 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-29 16:03:40 +0800
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2015-01-29 16:03:40 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-29 16:03:40 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-29 16:03:40 +0800
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-29 16:03:40 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-29 16:03:40 +0800
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2015-01-29 16:03:41 +0800
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2015-01-29 16:03:41 +0800
